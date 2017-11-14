@@ -1,10 +1,11 @@
 ---
 meta:
-  electron: "1.7.9" 
+  electron: "1.7.9"
 apps:
   - name: bCalendar
     icon: ./icons/bcalendar.icns
-    url: "https://outlook.office365.com/owa/?realm=getty.edu&exsvurl=1&ll-cc=1033&modurl=1&path=/calendar/view/Month"
+    url:
+      "https://outlook.office365.com/owa/?realm=getty.edu&exsvurl=1&ll-cc=1033&modurl=1&path=/calendar/view/Month"
 
   - name: bKeep
     icon: ./icons/bkeep.icns
@@ -21,3 +22,7 @@ apps:
   - name: rMail
     icon: ./icons/rmail.icns
     url: gmail.com
+
+  - name: rCal
+    icon: ./icons/rcal.icns
+    url: calendar.google.com
