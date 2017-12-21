@@ -7,6 +7,11 @@ apps:
     url:
       "https://outlook.office365.com/owa/?realm=getty.edu&exsvurl=1&ll-cc=1033&modurl=1&path=/calendar/view/Month"
 
+  - name: tPeople
+    icon: ./icons/tpeople.icns
+    url:
+      "https://outlook.office.com/owa/?realm=getty.edu&exsvurl=1&ll-cc=1033&modurl=2&path=/people"
+
   - name: bKeep
     icon: ./icons/bkeep.icns
     url: keep.google.com
