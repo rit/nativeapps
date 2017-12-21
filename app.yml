@@ -31,3 +31,7 @@ apps:
   - name: rCal
     icon: ./icons/rcal.icns
     url: calendar.google.com
+
+  - name: devdocs
+    icon: ./icons/devdocs.icns
+    url: devdocs.io
