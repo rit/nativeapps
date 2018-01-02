@@ -35,3 +35,7 @@ apps:
   - name: devdocs
     icon: ./icons/devdocs.icns
     url: devdocs.io
+
+  - name: GDrive
+    icon: ./icons/GDrive.icns
+    url: https://drive.google.com/drive/
