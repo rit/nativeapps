@@ -6,10 +6,13 @@ command = 'nativefier'
 
 with open('app.yml') as f:
     data = yaml.load(f)
+    electron = data['meta']['electron']
     for app in data['apps']:
+        name = app['name']
+        icon = "./icons/{}.icns".format(name)
         call([command,
-            '-n', app['name'],
-            '-i', app['icon'],
-            '-e', data['meta']['electron'],
+            '-n', name,
+            '-i', icon,
+            '-e', electron,
             app['url'],
             'build'])

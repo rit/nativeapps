@@ -1,41 +1,33 @@
 ---
 meta:
-  electron: "1.7.9"
+  electron: "1.7.10"
 apps:
-  - name: bCalendar
-    icon: ./icons/bcalendar.icns
+  - name: tCalendar
     url:
       "https://outlook.office365.com/owa/?realm=getty.edu&exsvurl=1&ll-cc=1033&modurl=1&path=/calendar/view/Month"
 
-  - name: tPeople
-    icon: ./icons/tpeople.icns
+  - name: tContact
     url:
       "https://outlook.office.com/owa/?realm=getty.edu&exsvurl=1&ll-cc=1033&modurl=2&path=/people"
 
-  - name: bKeep
-    icon: ./icons/bkeep.icns
-    url: keep.google.com
-
-  - name: rKeep
-    icon: ./icons/rkeep.icns
-    url: keep.google.com
-
-  - name: bMail
-    icon: ./icons/bmail.icns
+  - name: tMail
     url: gmail.com
 
-  - name: rMail
-    icon: ./icons/rmail.icns
+  - name: Keep
+    url: keep.google.com
+
+  - name: LinkedIn
+    url: linkedin.com
+
+  - name: LiMail
     url: gmail.com
 
-  - name: rCal
+  - name: LiCal
     icon: ./icons/rcal.icns
     url: calendar.google.com
 
   - name: devdocs
-    icon: ./icons/devdocs.icns
     url: devdocs.io
 
   - name: GDrive
-    icon: ./icons/GDrive.icns
     url: https://drive.google.com/drive/
