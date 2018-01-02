@@ -25,6 +25,9 @@ apps:
   - name: Gmail
     url: gmail.com
 
+  - name: Hangouts
+    url: hangouts.google.com
+
   - name: LiCal
     icon: ./icons/rcal.icns
     url: calendar.google.com
