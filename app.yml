@@ -22,6 +22,9 @@ apps:
   - name: LiMail
     url: gmail.com
 
+  - name: Gmail
+    url: gmail.com
+
   - name: LiCal
     icon: ./icons/rcal.icns
     url: calendar.google.com
