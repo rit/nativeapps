@@ -16,6 +16,9 @@ apps:
   - name: Keep
     url: keep.google.com
 
+  - name: Voice
+    url: voice.google.com
+
   - name: LinkedIn
     url: linkedin.com
 
